@@ -1,8 +1,5 @@
-function min(a, b){
-    if (a < b){
-        return a;
-    }
-         return b;
+function sayHi() {
+    alert('labas');
 }
-const atsakymas = min(1, 4);
-console.log (atsakymas);
+
+sayHi(); 
