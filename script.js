@@ -1,8 +1,10 @@
-function sayHi(word) {
-    alert(word);
+function sayHi(name) {
+    return 'Labas'+''+ name;
 }
 
-sayHi('laba diena');
+const atsakymas = sayHi ('Dalia'); 
+alert(atsakymas);
+// /*arba galima sujungti į viena eilute: alert(sayHi('Dalia'))/*
 
 
 // 1UZDUOTIS
@@ -15,4 +17,12 @@ sayHi('laba diena');
 // -priimtuparametra pavadinimu "word";
 // -pakvieskit funkcija su duotu zodziu;
 // -"alert" turi butik vieciama su parametru;
-
+// 3 UZDUOTIS
+// -funkcija priima viena parametra "name"
+// -funkcija turi tik grazinti pasisveikinima sujungta su duotu vardu;
+// -pakviesti funkcija vienakarta su savo vardu;
+// - is funkcijos kvietimo gauta verte "alertinti";
+// 5;6 eilutes galima sujungti i viena 
+// 5 const atsakymas = sayHi ('Dalia'); 
+// 6. alert(atsakymas);
+// /*arba galima alert(sayHi('Dalia'))/*
