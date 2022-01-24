@@ -1,10 +1,4 @@
-function sayHi(name) {
-    return 'Labas'+''+ name;
-}
 
-const atsakymas = sayHi ('Dalia'); 
-alert(atsakymas);
-// /*arba galima sujungti į viena eilute: alert(sayHi('Dalia'))/*
 
 
 // 1UZDUOTIS
@@ -26,3 +20,8 @@ alert(atsakymas);
 // 5 const atsakymas = sayHi ('Dalia'); 
 // 6. alert(atsakymas);
 // /*arba galima alert(sayHi('Dalia'))/*
+// 4 UZDUOTIS
+// Deklaruoti funkcija, kuri priima ir sudeda du skaicius'
+// Funkcija atsakyma grazina;
+
+// Is pakviestos funkcijos grazinta atsakyma mes alertinam;
